@@ -5,6 +5,7 @@ export class ServidorA{
         this.li = li
         this.ls = ls
         this.estado = Estados.LIBRE
+        this.cola = 0
     }
 
     getTiempoAtencion(){
