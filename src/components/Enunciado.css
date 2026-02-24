@@ -1,0 +1,26 @@
+.enunciado-container{
+    width: 900px;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+
+.enunciado-titulo{
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.enunciado-texto{
+    padding: 10px 30px 30px 30px;
+
+}
+
+.enunciado-p{
+    white-space: pre-wrap;
+}
+.enunciado-container strong{
+    font-weight: bold;
+    white-space: pre-line;
+}

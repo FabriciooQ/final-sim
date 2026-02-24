@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: normal;
+  color:#021818;
+}
+
+
+html{
+  width: 100vw;
+  --border-color:#E0E4E5;
+  --hover-text-color:#768686;
+  --background-color:#F6F6F6;
+  --background-box-color:#FEFEFE;
+}
+
+body{
+  background: #F6F6F6;
+  padding-top: 10vh;
+
+
+}
+
+h1,h2,h3{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 650;
+}
+
+
+/* .josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
