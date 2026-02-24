@@ -7,20 +7,24 @@
   font-weight: 400;
   font-size: 1rem;
   font-style: normal;
-  color:#021818;
+  color:var(--color-text);
 }
 
 
 html{
   width: 100vw;
-  --border-color:#E0E4E5;
+  --border-color:#D4D8DA;
+  --color-text:#141515;
   --hover-text-color:#768686;
-  --background-color:#F6F6F6;
-  --background-box-color:#FEFEFE;
+  --primary-color:#27505d;
+  --secondary-color:#7cc4de;
+  --acent-color:#189dcd;
+  --background-color:#ecf1f3;
+  --background-box-color:#fcfeff;
 }
 
 body{
-  background: #F6F6F6;
+  background: var(--background-color);
   padding-top: 10vh;
 
 
@@ -33,12 +37,12 @@ h1,h2,h3{
 }
 
 h1{
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2.3rem;
+  font-weight: 700;
 }
 
 h2{
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 

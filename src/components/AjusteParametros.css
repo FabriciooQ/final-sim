@@ -1,76 +1,67 @@
-.container {
-  display: flex;
-  justify-content: center;
-  padding: 50px 20px;
-}
-
-.card {
-  width: 100%;
-  background: white;
-  padding: 40px;
+.parametros-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  background: var(--background-box-color);
   border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  box-shadow: 0 15px 40px rgba(39, 80, 93,0.5);
 }
 
-h2 {
-  margin-bottom: 30px;
+.parametros-titulo{
+  padding: 30px 0px 10px 30px;
+  border-bottom: 1px solid var(--border-color);
 }
 
-.grid {
+.parametros-form {
+  width: 100%;
+  padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 30px;
 }
 
-.section h3 {
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: #2563eb;
+.parametros-form h2{
+  color:var(--acent-color);
 }
 
-.section p {
-  margin-top: 20px;
-  font-size: 16px;
-  color: #374151;
+.parametros-form h3{
+  margin-top:1rem;
 }
 
-.field {
+.parametros-llegada{
+  grid-column: 1;
+}
+
+.parametros-section{
   display: flex;
+  padding: 0px 10px;
   flex-direction: column;
-  margin-bottom: 15px;
 }
-
-.row {
+.parametros-renglon{
   display: flex;
-  gap: 15px;
 }
 
-input {
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #d1d5db;
-  transition: 0.2s;
+.parametros-servidores{
+  grid-column: 2;
 }
 
-input:focus {
-  border-color: #2563eb;
+.parametros-checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10px;
+}
+
+input[type="number"]{
+  width: 100%; 
+}
+
+input[type="number"]:focus{
+  border-color: var(--acent-color);
   outline: none;
-  box-shadow: 0 0 0 3px rgba(37,99,235,0.2);
+  box-shadow: 0 0 0 2px rgba(24, 157, 205, 0.3);
 }
 
-.btn {
-  margin-top: 40px;
-  width: 100%;
-  padding: 15px;
-  border: none;
-  border-radius: 10px;
-  background: #2563eb;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.btn:hover {
-  background: #1d4ed8;
+input[type="checkbox"]{
+  accent-color:var(--acent-color)
 }

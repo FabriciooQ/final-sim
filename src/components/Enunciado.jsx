@@ -4,7 +4,7 @@ export default function Enunciado(){
     return(
         <section className="enunciado-container">
             <div className="enunciado-titulo">
-                <h2>Enunciado</h2>
+                <h1>Enunciado</h1>
             </div>
             <div className="enunciado-texto">
                 <p className="enunciado-p">

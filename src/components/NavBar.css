@@ -11,6 +11,7 @@
     top:0;
     left:0;
     background-color: var(--background-color);
+    opacity: 0.8;
 }
 
 .navBar-nav span{
