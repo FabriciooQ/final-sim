@@ -1,0 +1,47 @@
+.paginacion-container{
+    width: max-content;
+    display: flex;
+}
+
+.paginacion-container ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.paginacion-texto{
+    width: max-content;
+}
+
+
+.paginacion-button-anterior,
+.paginacion-button-siguiente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid var(--acent-color);
+    padding: 2px 15px;
+    border-radius: 20px;
+    background-color: #189dcd3f;
+    transition: transform 0.1s linear ;
+}
+
+
+.paginacion-button-anterior p,
+.paginacion-button-siguiente p{
+    color: var(--acent-color);
+}
+
+.paginacion-button-anterior:hover,
+.paginacion-button-siguiente:hover{
+    cursor: pointer;
+    transform: translateY(1px);
+}
+
+
+.paginacion-button-anterior:active,
+.paginacion-button-siguiente:active{
+    background-color: #7cc4de;
+}

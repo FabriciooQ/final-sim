@@ -12,7 +12,7 @@
 
 
 html{
-  width: 100vw;
+  width: 100%;
   --border-color:#D4D8DA;
   --color-text:#141515;
   --hover-text-color:#768686;

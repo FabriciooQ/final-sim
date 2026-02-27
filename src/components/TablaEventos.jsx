@@ -1,5 +1,6 @@
 import "./TablaEventos.css"
 
+
 export default function TablaEventos({datos}){
 
     function mapearEstado(estado){
