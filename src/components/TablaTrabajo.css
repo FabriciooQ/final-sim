@@ -1,0 +1,40 @@
+.table-trabajo {
+  border-collapse:collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 0.2px;
+  font-size: 20px;
+}
+
+.table-trabajo thead{
+    position: sticky;
+    top:0
+}
+
+.table-trabajo th{
+    background-color: var(--primary-color);
+    padding: 20px 20px;
+    color:var(--background-box-color);
+    font-size: 1rem;
+}
+
+.table-trabajo  td {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.table-trabajo th, .table-trabajo td{
+    border-right:1px solid var(--border-table-color);
+    border-left:1px solid var(--border-table-color);
+}
+
+.table-trabajo  tr:nth-child(even) td {
+    background-color: var(--background-box-color);
+}
+
+.table-trabajo  tr:nth-child(odd) td {
+    background-color: var(--border-color);
+}
+
+.table-trabajo  caption {
+  padding: 10px;
+}

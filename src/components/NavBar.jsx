@@ -1,6 +1,10 @@
 import "./NavBar.css"
 
-export function NavBar(){
+export function NavBar({setVisualization}){
+    function handleOnClick(){
+        setVisualization(1)
+    }
+
     return(
         <nav className="navBar-nav"> 
         <span>
@@ -9,8 +13,7 @@ export function NavBar(){
         </span>
 
             <ul>
-                <li>Inicio</li>
-                <li>Enunciado</li>
+                <li onClick={handleOnClick}>Inicio</li>
             </ul>
 
         </nav>

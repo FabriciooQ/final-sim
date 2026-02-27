@@ -1,0 +1,63 @@
+
+.table-eventos {
+  border-collapse:collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 0.2px;
+}
+
+.tabla-estado{
+    border:1px solid var(--txt-color);
+    margin:auto;
+    border-radius: 20px;
+    background-color: var(--back-color);
+    color:var(--txt-color);
+    width:max-content;
+    padding: 5px 10px;
+}
+
+.table-eventos thead{
+    position: sticky;
+    top:0
+}
+
+.table-eventos  th{
+    background-color: var(--primary-color);
+    padding: 6px 10px;
+    color:var(--background-box-color);
+    font-size: 1rem;
+}
+
+.th-0 th{
+    border-right:1px solid var(--border-table-color);
+    border-left:1px solid var(--border-table-color);
+
+}
+
+.border-rigth{
+    border-right:1px solid var(--border-table-color);
+    
+}
+
+
+
+.pantalla2-h1{
+    margin-top: 2rem;
+}
+
+.table-eventos  td {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.table-eventos  tr:nth-child(even) td {
+    background-color: var(--background-box-color);
+}
+
+.table-eventos  tr:nth-child(odd) td {
+    background-color: var(--border-color);
+}
+
+
+.table-eventos  caption {
+  padding: 1px;
+}

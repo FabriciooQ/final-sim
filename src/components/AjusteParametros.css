@@ -20,6 +20,10 @@
   gap: 30px;
 }
 
+#corte{
+  margin-top: 1.5rem;
+}
+
 .parametros-form h2{
   color:var(--acent-color);
 }
@@ -28,8 +32,17 @@
   margin-top:1rem;
 }
 
-.parametros-llegada{
+.parametros-corte{
   grid-column: 1;
+  grid-row: 1;
+}
+
+.parametros-izquierda{
+  grid-column: 1;
+}
+
+.parametros-derecha{
+  grid-column: 2;
 }
 
 .parametros-section{
@@ -41,9 +54,6 @@
   display: flex;
 }
 
-.parametros-servidores{
-  grid-column: 2;
-}
 
 .parametros-checkbox{
   display: flex;
@@ -51,6 +61,11 @@
   justify-content: start;
   padding-left: 10px;
 }
+
+.inputErrorLabel{
+  color:red
+}
+
 
 input[type="number"]{
   width: 100%; 

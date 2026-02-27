@@ -1,7 +1,9 @@
 export class Trabajo{
-    constructor(llegada, estado, horaAtencion){
-        this.llegada = llegada
+    constructor(id, horaLlegada, estado, horaAtencion){
+        this.id = id
+        this.horaLlegada = horaLlegada
         this.estado = estado
         this.horaAtencion = horaAtencion
+        this.horaSalida = null
     }
 }
