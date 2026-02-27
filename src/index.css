@@ -19,7 +19,7 @@ html{
   --primary-color:#27505d;
   --secondary-color:#7cc4de;
   --acent-color:#189dcd;
-  --border-table-color:rgb(38, 47, 56);
+  --border-table-color:rgba(0 , 0, 0,0.3);
   --background-color:#ecf1f3;
   --background-box-color:#fcfeff;
 }
