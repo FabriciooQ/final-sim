@@ -35,6 +35,7 @@ export class ServidorB{
         //destruimos trabajo
         this.trabajoActual.estado = Estados.DESTRUIDO
         this.trabajoActual.horaSalida = reloj
+        console.log(this.trabajoActual)
         const aux = this.trabajoActual
         if(trabajo != null){
             this.cola--

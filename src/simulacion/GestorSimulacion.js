@@ -40,10 +40,12 @@ export class GestorSimulacion{
         this.eventos.eventoLlegada = new Evento(null, null, null, EventosTypes.INICIO, "Inicio")
 
         //creamos filas hasta que se cumpla algun limite (reloj o filas)
-        while(this.reloj<=this.limitReloj && this.filas<=this.limitFilas){
+        while(this.reloj<this.limitReloj && this.filas<this.limitFilas){
             this.relojAnterior = this.reloj
             let eventoActual = this.buscarEvento()
+            console.log(eventoActual)
             this.update(eventoActual)
+            console.log(this.trabajos[this.trabajos.length-1])
             this.calcularEstadisticas()
             this.pushRenglon()
             //console.log(this.res[this.res.lenght-1])
@@ -259,7 +261,10 @@ export class GestorSimulacion{
             return("Esperando (B)")
         }else if(estado == Estados.EN_ATENCION_A){
             return("En atencion (A)")
-        }else{
+        }else if(estado == Estados.EN_ATENCION_B){
+            return("En atencion (B)")
+        }
+        else{
             return("Realizado")
         }
     }
